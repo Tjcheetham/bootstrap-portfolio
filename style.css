@@ -1,0 +1,21 @@
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
