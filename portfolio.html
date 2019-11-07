@@ -38,40 +38,46 @@
         <h1 class="pages">Portfolio</h1>
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-3">
-                <img class="img img-thumbnail" src="images\hangman.jfif" alt="placeholder">
-                <h3 class="img-label">Hangman</h3>
+            <div class="col-md-3 click">
+                <a href="https://tjcheetham.github.io/bootstrap-portfolio/">
+                    <img class="img img-thumbnail" src="images\2019-11-05.png" alt="placeholder">
+                    <h3 class="img-label">Responsive Portfolio</h3>
+                </a>
             </div>
-            <div class="col-md-3">
-                <img class="img img-thumbnail" src="images\rpg.jfif" alt="placeholder">
-                <h3 class="img-label">RPG Game</h3>
+            <div class="col-md-3 click">
+                <a href="https://tjcheetham.github.io/dayPlanner/">
+                    <img class="img img-thumbnail" src="images\2019-10-25.png" alt="placeholder">
+                    <h3 class="img-label">Day Planner</h3>
+                </a>
             </div>
-            <div class="col-md-3"></div>
         </div>
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-3">
-                <img class="img img-thumbnail" src="images\trivia.jfif" alt="placeholder">
-                <h3 class="img-label">Trivia Game</h3>
+            <div class="col-md-3 click">
+                <a href="https://tjcheetham.github.io/city2city/">
+                    <img class="img img-thumbnail" src="images\2019-10-31.png" alt="placeholder">
+                    <h3 class="img-label">Group Project: City2City</h3>
+                </a>
             </div>
-            <div class="col-md-3">
-                <img class="img img-thumbnail" src="images\rutgers.jfif" alt="placeholder">
-                <h3 class="img-label">Rutgers Info Widget</h3>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
-                <img class="img img-thumbnail" src="images\rock paper scissors.jfif" alt="placeholder">
-                <h3 class="img-label">Rock Paper Scissors</h3>
+            <div class="col-md-3 click">
+                <a href="images\Resume.pdf">
+                    <img class="img img-thumbnail" src="images\Resume.png" alt="placeholder">
+                    <h3 class="img-label">Resumé</h3>
+                </a>
             </div>
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        $(".click").on("click", function () {
+            console.log("div clicked");
 
+        });
+    </script>
     <footer class="footer">
-        Copyright ©
+        Copyright ©2019
     </footer>
 </body>
 
