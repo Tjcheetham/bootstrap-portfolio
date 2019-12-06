@@ -11,74 +11,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">TJ Cheetham</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+<body class="page-container">
+    <div class="content-wrap">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">TJ Cheetham</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
 
-            </ul>
-        </div>
-    </nav>
+                </ul>
+            </div>
+        </nav>
 
-    <div class="container">
-        <h1 class="pages">Portfolio</h1>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3 click">
-                <a href="https://tjcheetham.github.io/bootstrap-portfolio/">
-                    <img class="img img-thumbnail" src="images\2019-11-05.png" alt="placeholder">
-                    <h3 class="img-label">Responsive Portfolio</h3>
-                </a>
+        <div class="container">
+            <h1 class="pages">Portfolio</h1>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3 click">
+                    <a href="https://tjcheetham.github.io/bootstrap-portfolio/">
+                        <img class="img img-thumbnail" src="images\2019-11-05.png" alt="placeholder">
+                        <h3 class="img-label">Responsive Portfolio</h3>
+                    </a>
+                </div>
+                <div class="col-md-3 click">
+                    <a href="https://tjcheetham.github.io/dayPlanner/">
+                        <img class="img img-thumbnail" src="images\2019-10-25.png" alt="placeholder">
+                        <h3 class="img-label">Day Planner</h3>
+                    </a>
+                </div>
             </div>
-            <div class="col-md-3 click">
-                <a href="https://tjcheetham.github.io/dayPlanner/">
-                    <img class="img img-thumbnail" src="images\2019-10-25.png" alt="placeholder">
-                    <h3 class="img-label">Day Planner</h3>
-                </a>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3 click">
+                    <a href="https://tjcheetham.github.io/city2city/">
+                        <img class="img img-thumbnail" src="images\2019-10-31.png" alt="placeholder">
+                        <h3 class="img-label">Group Project: City2City</h3>
+                    </a>
+                </div>
+                <div class="col-md-3 click">
+                    <a href="images\Resume.pdf">
+                        <img class="img img-thumbnail" src="images\Resume.png" alt="placeholder">
+                        <h3 class="img-label">Resumé</h3>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3 click">
-                <a href="https://tjcheetham.github.io/city2city/">
-                    <img class="img img-thumbnail" src="images\2019-10-31.png" alt="placeholder">
-                    <h3 class="img-label">Group Project: City2City</h3>
-                </a>
-            </div>
-            <div class="col-md-3 click">
-                <a href="images\Resume.pdf">
-                    <img class="img img-thumbnail" src="images\Resume.png" alt="placeholder">
-                    <h3 class="img-label">Resumé</h3>
-                </a>
-            </div>
-        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script>
+            $(".click").on("click", function () {
+                console.log("div clicked");
+
+            });
+        </script>
+        <footer class="footer">
+            Copyright ©2019
+        </footer>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script>
-        $(".click").on("click", function () {
-            console.log("div clicked");
-
-        });
-    </script>
-    <footer class="footer">
-        Copyright ©2019
-    </footer>
 </body>
 
 </html>
