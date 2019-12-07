@@ -1,16 +1,18 @@
 # Bootstrap Portfolio
 
 ### Description
-
+My own portfolio website hosting a collection of my coding projects as well as resume, bio and links to GitHub and LinkedIn.
 
 ### Technologies-Libraries
 [Bootstrap](https://getbootstrap.com/) - CSS - HTML
 
 ### Screenshots
 
-![Screenshot1](assets/images/2019-10-24(1).png)
+![Screenshot1](images/portfolio-index.png)
 
-![Screenshot2](assets/images/2019-10-24(2).png)
+![Screenshot2](images/portfolio-projects.png)
+
+![Screenshot3](images/portfolio-contact.png)
 
 ### Link
 Check it out!
