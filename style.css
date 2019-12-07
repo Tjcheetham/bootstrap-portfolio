@@ -13,8 +13,17 @@
     padding-bottom: 2.5rem;    /* Footer height */
   }
 
-footer {
+.footer {
     position: absolute;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer2 {
     bottom: 0;
     border-top: 8px solid #4aaaa5;
     width: 100%;
